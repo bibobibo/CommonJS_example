@@ -31,4 +31,6 @@ var Person = function(name, age) {
     };
 };
 
+console.log("Person is loaded");
+
 module.exports = Person;
