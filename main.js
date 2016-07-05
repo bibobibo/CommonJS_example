@@ -1,4 +1,10 @@
-var Person = require('./person');
+var PersonOne = require('./person');
+var PersonTwo = require('./person');
 
-var person = Person("Brant", 100);
-person.selfIntroduce();
+var personOne = PersonOne("Brant", 100);
+personOne.selfIntroduce();
+
+var personTwo = PersonTwo("Larry", 19);
+personTwo.selfIntroduce();
+
+console.log("PersonOne === PersonTwo ? ", PersonOne === PersonTwo);
