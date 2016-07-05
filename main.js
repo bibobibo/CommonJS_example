@@ -1,12 +1,10 @@
-var PersonOne = require('./person');
+var obj1 = require('./simpleObj').obj;
 
-var personOne = PersonOne("Brant", 100);
-personOne.selfIntroduce();
+console.log(obj1);
 
-console.log("PersonTwo", PersonTwo);
+var obj2 = require('./simpleObj').obj;
+console.log(obj2);
+obj2.motto = "Just give up!!!";
 
-var PersonTwo = require('./person');
-var personTwo = PersonTwo("Larry", 19);
-personTwo.selfIntroduce();
-
-console.log("PersonOne === PersonTwo ? ", PersonOne === PersonTwo);
+console.log(obj2);
+console.log(obj1);
