@@ -1,6 +1,6 @@
 var obj1 = require('./simpleObj').obj;
 
-console.log(obj1);
+console.log(obj1, haha);
 
 require('./changeObj');
 
